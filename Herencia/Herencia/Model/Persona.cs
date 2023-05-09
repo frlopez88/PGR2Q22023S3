@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Herencia.Model
 {
-	public class Persona
+	public class Persona 
 	{
 		public string nombre { get; set; }
 		public string apellido { get; set; }

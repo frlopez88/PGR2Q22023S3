@@ -47,6 +47,21 @@ namespace Herencia.Model
 
         }
 
+        public string getClases() {
+
+            string reporte = "";
+
+            foreach (Clase tmp in listClases) {
+
+
+                reporte +=  tmp.ToString() + "\n";
+
+            }
+
+            return reporte;
+
+        }
+
     }
 }
 

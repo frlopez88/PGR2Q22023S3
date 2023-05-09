@@ -57,9 +57,13 @@ class Program
 
         Console.WriteLine(e.getTelefonos());
         Console.WriteLine(e.promedio);
+        Console.WriteLine(e.getClases());
 
         Console.WriteLine(e1.ToString());
-        Console.WriteLine(e1.promedio); 
+        Console.WriteLine(e1.promedio);
+        Console.WriteLine(e1.getClases());
+
+
 
 
 
